@@ -1,0 +1,97 @@
+:root {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	background-color: #180e0b;
+	padding: 30px;
+}
+
+.header .main__title {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.nav__list {
+	display: flex;
+	margin-top: 10px;
+}
+
+.nav__list .nav__items {
+	margin: 0px 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav__list .home__button {
+	padding: 10px;
+	background-color: #56c9d6;
+	border-radius: 5px;
+}
+
+.image {
+	height: 470px;
+	background-image: url(../img/Banner.jpg);
+	background-size: 100%;
+}
+
+.post__section {
+	padding: 60px 0px;
+}
+
+.container__list {
+	display: block;
+}
+
+.post__list {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px 60px;
+}
+
+.post__items {
+	margin: 0px 20px;
+}
+
+.post__items a {
+	text-decoration: none;
+	color: #000000;
+	width: 200;
+	height: 174;
+}
+
+.post__items p {
+	line-height: 1.6;
+	width: 80%;
+}
+
+.post__titles {
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	max-width: 70%;
+}
+
+.articles__section {
+	background-color: #372019;
+	display: flex;
+	padding: 60px 20px;
+}
+
+.articles__section .center__title {
+	text-align: center;
+}
+
+.articles__list p {
+	color: #683c2f;
+}
+
+.articles__titles {
+	color: #aa6751;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
