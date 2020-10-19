@@ -59,6 +59,10 @@ img {
 	margin: 34px 0;
 }
 
+.card__items {
+	margin-left: 20px;
+}
+
 .card__list .card__titles {
 	margin: 15px 0;
 	font-size: 20px;
