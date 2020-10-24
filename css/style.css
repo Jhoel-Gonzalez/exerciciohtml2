@@ -49,23 +49,27 @@ img {
 }
 
 .image {
-	height: 470px;
-	background-size: 100%;
-	background-image: url(../img/Banner.jpg);
+	display: block;
+	margin: 0 auto;
 }
 
-.card__list {
+.cards {
 	display: flex;
-	margin: 34px 0;
+	justify-content: space-between;
 }
 
-.card__list .card__titles {
+.card {
+	max-width: 280px;
+	margin: 34px 20px;
+}
+
+.card__titles {
 	margin: 15px 0;
 	font-size: 20px;
 	font-weight: 600;
 }
 
-.card__list .card__paragraphs {
+.card__paragraphs {
 	font-size: 100%;
 	color: #000000;
 	line-height: 1.6;
@@ -160,4 +164,44 @@ img {
 
 .footer__content:hover {
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 414px ) {
+	
+	.section__container {
+		max-width: calc(100% - 50px);
+	}
+	
+	.nav__bar {
+		display: none;
+	}
+	
+	.cards {
+		flex-wrap: wrap;
+	}
+
+	.card {
+		width: 100%;
+		margin: 30px auto;
+	}
+
+	.articles__content {
+		flex-direction: column;
+	}
+	.article__list {
+		max-width: 255px;
+	}
+
+	.secondary__card {
+		width: 100%;
+	}
+
+	.about__content {
+		flex-wrap: wrap;
+	}
+
+	.about__us {
+		padding-bottom: 30px;
+	}
+
 }
